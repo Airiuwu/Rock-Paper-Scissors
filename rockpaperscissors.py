@@ -5,9 +5,9 @@ if os.name =='nt':
 	ctypes.windll.kernel32.SetConsoleTitleW(f"Rock! Paper! Scissors!")
 
 choices = ["Rock", "Paper", "Scissors"]
+result = ["Tied!", "Lost!", "Won!"]
 botChoice = random.choice(choices)
 userChoice = (input("Choose one! Rock, Paper or Scissors\n"))
-result = ["Tied!", "Lost!", "Won!"]
 
 if userChoice not in choices:
     print("That is not a valid option!")
