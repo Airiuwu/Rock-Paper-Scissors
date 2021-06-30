@@ -155,7 +155,7 @@ def multiPlayer():
 					else:
 						os.system('cls')
 						print(f"You picked {choice}!".center(shutil.get_terminal_size().columns))
-						requests.get(f"https://rps.airi.cf/api/v1/updategame?u={username}&p={match_password}&{MAKE YOUR OWN}={MAKE YOUR OWN}&c={choice}&j=no")
+						requests.get(f"https://rps.airi.cf/api/v1/updategame?u={username}&p={match_password}&vsTvTFhPu7RrKepAg6KzHfRtXzaVkXmP=nXM8d93UPPCmPa5XVtpdLxAgYQAG5D6n&c={choice}&j=no")
 						waitingForResponse = True
 						while waitingForResponse:
 							time.sleep(2)
@@ -246,7 +246,7 @@ def multiPlayer():
 				else:
 					os.system('cls')
 					print(f"You picked {choice}!".center(shutil.get_terminal_size().columns))
-					requests.get(f"https://rps.airi.cf/api/v1/updategame?u={username}&u2={userUsername}&p={match_password}&{SAME AS ABOVE}={SAME AS ABOVE}&c2={choice}&j=yes")
+					requests.get(f"https://rps.airi.cf/api/v1/updategame?u={username}&u2={userUsername}&p={match_password}&vsTvTFhPu7RrKepAg6KzHfRtXzaVkXmP=nXM8d93UPPCmPa5XVtpdLxAgYQAG5D6n&c2={choice}&j=yes")
 					waitingForResponse = True
 					while waitingForResponse:
 						time.sleep(2)
